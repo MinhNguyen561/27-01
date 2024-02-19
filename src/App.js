@@ -21,6 +21,8 @@ function addTask() {
       { id: nextId++, task: task }
   ]);
 
+  setTask('');
+  
   console.log(task)
 
 
